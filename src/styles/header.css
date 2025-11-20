@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  grid-template: repeat(2, 1fr) / 1fr;
+  justify-content: center;
+  align-items: center;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0 0 50px 0;
+}
+
+.header .title {
+  background-image: url("../images/cometa_bl4.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.header .image{
+  inline-size: 100%;
+  block-size: 50vh;
+  background-image: url("../images/cometa_bl.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover
+}

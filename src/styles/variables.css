@@ -1,0 +1,10 @@
+:root {
+  --main-font-family: 'Montserrat-Regular', sans-serif;
+  --title-font-family: 'RussoOne-Regular', sans-serif;
+  --text-font-weight: 400;
+  --title-font-weight: 700;
+
+  --main-text-color: #000;
+  --bg-color: #3D3D3D;
+  --accent-color: #9923DD;
+}

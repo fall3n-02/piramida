@@ -1,0 +1,51 @@
+.membership {
+  display: grid;
+  grid-template: repeat(2, auto) / 1fr;
+}
+
+.membership-list {
+  display: grid;
+  grid-template: auto / repeat(3, 1fr);
+}
+
+.membership-list__item {
+  display: grid;
+  grid-template: min-content 300px min-content  min-content  / 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.membership-list__item div {
+  inline-size: 100%;
+  block-size: 100%;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  border-radius: 20px;
+}
+
+.membership-list__item:first-child div {
+  background-image: url("../images/athlete.jpg");
+}
+
+
+.membership-list__item:nth-child(2) div {
+  background-image: url("../images/bodybuilder.jpg");
+}
+
+.membership-list__item:nth-child(3) div {
+  background-image: url("../images/olimpia.jpg");
+}
+
+.membership-list__item .subtitle {
+  font-size: 32px;
+}
+
+.choose-button {
+  inline-size: 100px;
+  block-size: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+}

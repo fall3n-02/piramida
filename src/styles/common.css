@@ -1,0 +1,24 @@
+.page {
+  min-inline-size: 320px;
+  min-block-size: 100dvb;
+  font-family: var(--main-font-family);
+  font-size: 18px;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--title-font-family);
+  font-weight: bold;
+  font-size: 250px;
+  line-height: 1;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--title-font-family);
+  font-weight: bold;
+  font-size: 64px;
+}

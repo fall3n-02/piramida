@@ -1,0 +1,45 @@
+.equipment {
+  display: grid;
+  grid-template: auto 100px auto / auto;
+  justify-items: center;
+  align-items: center;
+  margin: 0 0 50px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template: repeat(2, 25vh) / repeat(3, 30vw);
+  grid-template-areas: 
+    "first second third"
+    "fourth fourth third";
+  gap: 10px;
+}
+
+.gallery .image {
+  inline-size: auto;
+  block-size: auto;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid black ;
+  border-radius: 5px;
+}
+
+.gallery__first-image {
+  background-image: url("../images/cometa_bl4.jpg");
+  grid-area: first;
+}
+
+.gallery__second-image {
+  background-image: url("../images/cometa_bl6.jpg");
+  grid-area: second;
+}
+
+.gallery__third-image {
+  background-image: url("../images/cometa_bl5.jpg");
+  grid-area: third;
+}
+
+.gallery__fourth-image {
+  background-image: url("../images/cometa_bl3.jpg");
+  grid-area: fourth;
+}

@@ -1,24 +1,13 @@
 @font-face {
-  font-family: "Comfortaa-Regular";
-  src: url(./Comfortaa-Regular.ttf) format("ttf");
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Comfortaa-Bold";
-  src: url(./Comfortaa-Bold.ttf) format("ttf");
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
   font-family: "Montserrat-Regular";
-  src: url(./Montserrat-Regular.ttf) format("ttf");
+  src: url("./Montserrat-Regular.woff") format("woff");
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Montserrat-Bold";
-  src: url(./Montserrat-Bold.ttf) format("ttf");
-  font-weight: 700;
+  font-family: "RussoOne-Regular";
+  src: url("./RussoOne-Regular.woff") format("woff");
+  font-weight: 400;
   font-display: swap;
 }
