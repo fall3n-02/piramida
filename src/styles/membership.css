@@ -1,6 +1,7 @@
 .membership {
   display: grid;
   grid-template: repeat(2, auto) / 1fr;
+  margin: 0 0 100px 0;
 }
 
 .membership-list {
