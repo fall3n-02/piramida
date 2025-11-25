@@ -1,7 +1,7 @@
 .membership {
   display: grid;
   grid-template: repeat(2, auto) / 1fr;
-  margin: 0 0 100px 0;
+  margin: var(--membership-margin);
 }
 
 .membership-list {
@@ -14,8 +14,8 @@
   grid-template: min-content 300px min-content  min-content  / 1fr;
   justify-items: center;
   align-items: center;
-  padding: 10px;
-  gap: 10px;
+  padding: var(--membership-list__item-padding);
+  gap: var(--membership-list__item-gap);
 }
 
 .membership-list__item div {
@@ -45,8 +45,8 @@
 }
 
 .choose-button {
-  inline-size: 100px;
-  block-size: 40px;
+  inline-size: var(--choose-button-inline-size);
+  block-size: var(--choose-button-block-size);
   border: 2px solid black;
   border-radius: 10px;
 }

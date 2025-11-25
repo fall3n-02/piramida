@@ -1,10 +1,28 @@
 :root {
   --main-font-family: 'Montserrat-Regular', sans-serif;
   --title-font-family: 'RussoOne-Regular', sans-serif;
+
   --text-font-weight: 400;
   --title-font-weight: 700;
 
   --main-text-color: #000;
-  --bg-color: #3D3D3D;
+  --bg-color: #ffffff;
   --accent-color: #9923DD;
+
+  --title-font-size: 250px;
+  --subtitle-font-size: 64px;
+
+  --header-margin: 0 0 100px 0;
+  --equipment-margin: 0 0 100px 0;
+  --membership-margin: 0 0 100px 0;
+
+  --membership-list__item-padding: 10px;
+  --footer-padding: 10px 25px;
+
+  --membership-list__item-gap: 10px;
+  --footer-gap: 300px;
+  --gallery-gap: 10px;
+
+  --choose-button-inline-size: 100px;
+  --choose-button-block-size: 40px;
 }

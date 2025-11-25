@@ -3,7 +3,7 @@
   grid-template: auto 100px auto / auto;
   justify-items: center;
   align-items: center;
-  margin: 0 0 100px 0;
+  margin: var(--equipment-margin);
 }
 
 .gallery {
@@ -12,7 +12,7 @@
   grid-template-areas: 
     "first second third"
     "fourth fourth third";
-  gap: 10px;
+  gap: var(--gallery-gap);
 }
 
 .gallery .image {
