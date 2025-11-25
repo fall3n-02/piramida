@@ -1,0 +1,10 @@
+.about {
+  margin: var(--about-margin);
+}
+
+.map {
+  inline-size: min-content;
+  padding: var(--map-padding);
+  border: 2px solid black;
+  border-radius: 10px;
+}
