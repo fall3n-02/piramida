@@ -1,4 +1,6 @@
 .about {
+  display: flex;
+  gap: var(--about-gap);
   margin: var(--about-margin);
 }
 
@@ -7,4 +9,14 @@
   padding: var(--map-padding);
   border: 2px solid black;
   border-radius: 10px;
+}
+
+.about__div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--about__div-gap);
+}
+
+.about__div .subtitle {
+  font-size: 32px;
 }

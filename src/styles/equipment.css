@@ -1,9 +1,15 @@
 .equipment {
   display: grid;
-  grid-template: auto 100px auto / auto;
+  grid-template: auto auto auto / auto;
   justify-items: center;
   align-items: center;
   margin: var(--equipment-margin);
+  gap: var(--equipment-gap);
+}
+
+.equipment .text {
+  inline-size: var(--equipment__text-inline-size);
+  block-size: auto;
 }
 
 .gallery {

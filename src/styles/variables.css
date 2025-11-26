@@ -19,18 +19,23 @@
 
   --membership-list__item-padding: 10px;
   --footer-padding: 10px 25px;
-  --map-padding: 10px;
+  --map-padding: 5px;
 
   --membership-list__item-gap: 10px;
+  --membership-list-gap: 20px;
   --footer-gap: 300px;
   --gallery-gap: 10px;
+  --about-gap: 25vw;
+  --about__div-gap: 10px;
+  --equipment-gap: 25px;
 
-  --choose-button-inline-size: 100px;
+  --choose-button-inline-size: 150px;
   --choose-button-block-size: 40px;
 
   --section-inline-size: clamp(620px, 90vw, 1420px);
 
-
   --gallery__item-block-size: 25vh;
   --gallery__item-inline-size: calc(var(--section-inline-size) / 3 - var(--gallery-gap));
+
+  --equipment__text-inline-size: clamp(300px, 50vw, 700px);
 }

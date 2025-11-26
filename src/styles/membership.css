@@ -7,15 +7,18 @@
 .membership-list {
   display: grid;
   grid-template: auto / repeat(3, 1fr);
+  gap: var(--membership-list-gap);
 }
 
 .membership-list__item {
   display: grid;
-  grid-template: min-content 300px min-content  min-content  / 1fr;
+  grid-template: 45px 300px 150px 50px / 1fr;
   justify-items: center;
   align-items: center;
   padding: var(--membership-list__item-padding);
   gap: var(--membership-list__item-gap);
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .membership-list__item div {
