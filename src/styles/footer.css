@@ -1,7 +1,9 @@
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: var(--footer-gap);
   padding: var(--footer-padding);
   border-top: 2px solid black;
+  block-size: var(--footer-block-size);
 }

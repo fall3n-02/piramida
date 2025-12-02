@@ -1,0 +1,54 @@
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.popup-window {
+  width: 50vw;
+  height: 60vh;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.popup-title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.popup-list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px;
+}
+
+.popup-list-item {
+  text-align: center;
+  padding: 8px 0;
+  font-size: 1.1rem;
+}
+
+.popup-price {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.popup-button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

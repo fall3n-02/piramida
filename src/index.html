@@ -13,10 +13,10 @@
     </header>
     <main class="main">
       <nav class="navigation">
-        <a href="">
+        <a href="./index.html">
           <img class="icon" src="<%=require('./images/home-icon.svg')%>" />
         </a>
-        <a href="">
+        <a href="./timetable.html">
           <img class="icon" src="<%=require('./images/timetable-icon.svg')%>" />
         </a>
         <a href="#membership">
@@ -35,7 +35,7 @@
           Флагманский клуб для тех, кто предпочитает темноту, неон и комфорт
           прямо в центре столицы. Те, кто приходят сюда впервые, чувствуют себя
           будто на борту космического корабля, но в отличие от большинства
-          Sci-Fi фильмов, ты уйдёшь отсюда живым и с хорошим настроением.<br>Мы
+          Sci-Fi фильмов, ты уйдёшь отсюда живым и с хорошим настроением.<br />Мы
           придумали умное зонирование клуба на функциональные пространства —
           spaces. В которых каждый найдет себе занятие по душе.
         </p>
@@ -105,4 +105,16 @@
       <p>black@comet.ru</p>
     </footer>
   </dody>
+  <template class="popup-overlay" id="popup">
+    <div class="popup-window">
+      <h2 class="title">Название</h2>
+      <ul class="popup__list">
+        <li class="popup__list__item">Элемент 1</li>
+        <li class="popup__list__item">Элемент 2</li>
+        <li class="popup__list__item">Элемент 3</li>
+      </ul>
+      <p class="popup__price">4500 ₽</p>
+      <button class="popup__button">Записаться</button>
+    </div>
+  </template>
 </html>

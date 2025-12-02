@@ -38,4 +38,6 @@
   --gallery__item-inline-size: calc(var(--section-inline-size) / 3 - var(--gallery-gap));
 
   --equipment__text-inline-size: clamp(300px, 50vw, 700px);
+
+  --footer-block-size: 100px;
 }

@@ -10,11 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--main-text-color);
 }
 
 .title {
   text-align: center;
-  color: var(--main-text-color);
   font-family: var(--title-font-family);
   font-weight: bold;
   font-size: var(--title-font-size);
@@ -23,7 +23,6 @@
 
 .subtitle {
   text-align: center;
-  color: var(--main-text-color);
   font-family: var(--title-font-family);
   font-weight: bold;
   font-size: var(--subtitle-font-size);
